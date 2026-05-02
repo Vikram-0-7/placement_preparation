@@ -1,0 +1,145 @@
+{
+  "resources": [
+    {
+      "id": "dsa-arrays",
+      "category": "DSA",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "links": [
+        { "name": "LeetCode - Two Sum", "url": "https://leetcode.com/problems/two-sum/", "type": "Practice" },
+        { "name": "YouTube - Array Basics", "url": "https://www.youtube.com/watch?v=Basics", "type": "Tutorial" }
+      ],
+      "notes": "Arrays are fundamental data structures. Focus on Kadane's algorithm and Two Pointers."
+    },
+    {
+      "id": "aptitude-quant",
+      "category": "Aptitude",
+      "topic": "Quantitative",
+      "difficulty": "Medium",
+      "links": [
+        { "name": "Indiabix - Quant", "url": "https://www.indiabix.com/aptitude/questions-and-answers/", "type": "Practice" }
+      ],
+      "notes": "Focus on Time, Speed, and Distance problems."
+    },
+    {
+      "id": "core-os",
+      "category": "Core Subjects",
+      "topic": "Operating Systems",
+      "difficulty": "Hard",
+      "links": [
+        { "name": "GeeksforGeeks - OS", "url": "https://www.geeksforgeeks.org/operating-systems/", "type": "Notes" }
+      ],
+      "notes": "Understand Paging, Segmentation, and Deadlocks."
+    },
+    {
+      "id": "core-dbms",
+      "category": "Core Subjects",
+      "topic": "DBMS",
+      "difficulty": "Hard",
+      "links": [
+        { "name": "GeeksforGeeks - DBMS", "url": "https://www.geeksforgeeks.org/dbms/", "type": "Notes" }
+      ],
+      "notes": "Master SQL Queries, Normalization, ACID Properties, and Indexing."
+    },
+    {
+      "id": "core-oops",
+      "category": "Core Subjects",
+      "topic": "OOPS",
+      "difficulty": "Medium",
+      "links": [
+        { "name": "GeeksforGeeks - OOPS", "url": "https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/", "type": "Notes" }
+      ],
+      "notes": "Learn the 4 Pillars: Inheritance, Polymorphism, Abstraction, and Encapsulation."
+    },
+    {
+      "id": "core-cn",
+      "category": "Core Subjects",
+      "topic": "Computer Networks",
+      "difficulty": "Hard",
+      "links": [
+        { "name": "GeeksforGeeks - CN", "url": "https://www.geeksforgeeks.org/computer-network-tutorials/", "type": "Notes" }
+      ],
+      "notes": "Understand the OSI Model, TCP/IP, HTTP/HTTPS, and IP Addressing."
+    }
+  ],
+  "roadmaps": [
+    {
+      "id": "software-dev",
+      "category": "Software Developer",
+      "steps": [
+        { "step": "Beginner", "skills": ["HTML", "CSS", "JS"], "tools": ["VS Code", "Git"], "resources": ["MDN Docs", "FreeCodeCamp"] },
+        { "step": "Intermediate", "skills": ["React", "Node.js"], "tools": ["Docker", "Postman"], "resources": ["React Docs", "Node.js Guide"] },
+        { "step": "Advanced", "skills": ["Cloud Basics", "System Design"], "tools": ["AWS", "Kubernetes"], "resources": ["ByteByteGo"] }
+      ]
+    },
+    {
+        "id": "ai-ml",
+        "category": "AI / Machine Learning",
+        "steps": [
+          { "step": "Beginner", "skills": ["Python", "Statistics"], "tools": ["Jupyter"], "resources": ["Kaggle Learn"] },
+          { "step": "Intermediate", "skills": ["Linear Regression", "CNN"], "tools": ["Scikit-Learn", "TensorFlow"], "resources": ["Andrew Ng Course"] },
+          { "step": "Advanced", "skills": ["NLP", "Transformers"], "tools": ["PyTorch", "HuggingFace"], "resources": ["DeepLearning.AI"] }
+        ]
+    },
+    {
+        "id": "cyber-security",
+        "category": "Cyber Security",
+        "steps": [
+          { "step": "Beginner", "skills": ["Networking", "Linux Basics"], "tools": ["Wireshark"], "resources": ["TryHackMe"] },
+          { "step": "Intermediate", "skills": ["Penetration Testing"], "tools": ["Kali Linux", "Metasploit"], "resources": ["HackTheBox"] }
+        ]
+    },
+    {
+        "id": "cloud-computing",
+        "category": "Cloud Computing",
+        "steps": [
+          { "step": "Beginner", "skills": ["Cloud Fundamentals"], "tools": ["AWS CLI"], "resources": ["AWS Cloud Practitioner"] },
+          { "step": "Intermediate", "skills": ["DevOps", "IaC"], "tools": ["Terraform", "Ansible"], "resources": ["Adrian Cantrill"] }
+        ]
+    },
+    {
+        "id": "data-science",
+        "category": "Data Science",
+        "steps": [
+          { "step": "Beginner", "skills": ["SQL", "Pandas"], "tools": ["Excel", "Tableau"], "resources": ["DataCamp"] },
+          { "step": "Intermediate", "skills": ["Data Modeling"], "tools": ["PowerBI", "PySpark"], "resources": ["Google Data Analytics"] }
+        ]
+    }
+  ],
+  "technical_questions": [
+    {
+      "id": "t1",
+      "category": "OS",
+      "question": "Explain Paging.",
+      "answer": "Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory.",
+      "difficulty": "Medium",
+      "tags": ["Fundamental", "Memory"]
+    },
+    {
+        "id": "t2",
+        "category": "DSA",
+        "question": "What is Sliding Window pattern?",
+        "answer": "A technique used to reduce time complexity by maintaining a window of elements.",
+        "difficulty": "Medium",
+        "tags": ["Pattern", "Arrays"]
+    },
+    {
+        "id": "proj-1",
+        "category": "Projects",
+        "question": "How to explain your project to an interviewer?",
+        "answer": "Use the STAR method: Situation, Task, Action, Result. Focus on the 'Why' and the challenges you solved.",
+        "difficulty": "Hard",
+        "tags": ["Resume", "Strategy"]
+    }
+  ],
+  "hr_questions": [
+    {
+      "id": "hr1",
+      "question": "Why should we hire you?",
+      "answer": "Focus on how your skills align with the company's needs.",
+      "tips": "Research the job description before answering.",
+      "good_example": "I have the technical skills in React and the problem-solving mindset you need.",
+      "bad_example": "Because I need a job."
+    }
+  ]
+}
